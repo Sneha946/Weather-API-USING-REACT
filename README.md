@@ -1,12 +1,18 @@
-# React + Vite
+VITE_API_URL=[https://api.openweathermap.org/data/2.5/weather](http://api.openweathermap.org/data/2.5/weather)
+VITE_API_KEY=your_api_key_here
+VITE_HOT_URL=your_hot_image_url
+VITE_COLD_URL=your_cold_image_url
+VITE_RAINY_URL=your_rainy_image_url
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🌦️ React Weather App
 
-Currently, two official plugins are available:
+1. Clone the repo
+2. Run `npm install`
+3. Create a `.env` file from `.env.example` and add your API key
+4. Run `npm run dev`
+## 🛠️ Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Material UI (MUI)](https://mui.com/)
+- [OpenWeatherMap API](https://openweathermap.org/api)
